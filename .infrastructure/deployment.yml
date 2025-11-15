@@ -38,7 +38,7 @@ spec:
             periodSeconds: 5
           readinessProbe:
             httpGet:
-              path: api/ready
+              path: /api/ready
               port: 8080
             initialDelaySeconds: 5
             periodSeconds: 5
